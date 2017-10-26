@@ -4,17 +4,6 @@ let opt = '1 <select id="day-1"><option value="1">One</option><option value="2">
 opt += '2 <select id="day-2"><option value="1">One</option><option value="2">Two</option></select>';
 monthForm.innerHTML = opt;
 
-//    var monthTrips = [
-//        {
-//            Day: "1"
-//            Trips: document.querySelector("#day-1").value,
-//        },
-//        {
-//            Day: "2",
-//            Trips: document.querySelector("#day-1").value,
-//        },
-//    ];
-
     function convertArrayOfObjectsToCSV(args) {
         var result, ctr, keys, columnDelimiter, lineDelimiter, data;
 
